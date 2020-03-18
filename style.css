@@ -1,0 +1,22 @@
+/*
+  Theme Name: Trucks and Parts
+  Theme URI:
+  Author: Marissa Culbreth and Katy Watts
+  Description: This assignment serves as project for the University of Florida Web Interactivty and Engagement course, client: Trucks and Parts.
+  Version: 1.0
+  License: Open
+  Text Domain: web_interactivity
+*/
+
+/* Universal Styling */
+
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: darkgrey;
+  margin-top: -5%;
+}
