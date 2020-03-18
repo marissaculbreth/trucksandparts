@@ -75,6 +75,11 @@ h3.footer-h3 {
   text-decoration: underline;
 }
 
+ul.left-footer-menu li {
+  list-style-type: none;
+  margin-left: -7%;
+}
+
 ul#menu-navigate.menu li {
   list-style-type: none;
   margin-left: -7%;
@@ -83,4 +88,20 @@ ul#menu-navigate.menu li {
 ul#menu-links.menu li {
   list-style-type: none;
   margin-left: -7%;
+}
+
+.left-footer {
+  margin-left: 30%;
+}
+
+.middle-footer {
+  margin-left: 20%;
+}
+
+.right-footer {
+  margin-left: 20%;
+}
+
+div.col-lg-3 {
+	display: flex;
 }
