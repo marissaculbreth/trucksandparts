@@ -14,6 +14,7 @@
 
     <div class="col-md-4 d-flex align-items-center">
       <nav>
+        <h3 class="footer-h3">Links</h3>
         <?php
           if(has_nav_menu('footer-middle')){
             wp_nav_menu(array('theme_location' => 'footer-middle' , 'container_class' => 'footer-middle-class'));
@@ -26,6 +27,7 @@
 
     <div class="col-md-4 d-flex align-items-center">
       <nav>
+        <h3 class="footer-h3">Navigate</h3>
         <?php
           if(has_nav_menu('footer-right')){
             wp_nav_menu(array('theme_location' => 'footer-right' , 'container_class' => 'footer-right-class'));

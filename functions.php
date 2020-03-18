@@ -8,6 +8,7 @@ Add stylesheet and JavaScript files
 
 */
 
+
 function custom_theme_scripts(){
 
   // Bootstrap integration
@@ -149,4 +150,4 @@ function blank_widgets_init(){
 add_action('widgets_init', 'blank_widgets_init');
 
 
-?>
+ ?>

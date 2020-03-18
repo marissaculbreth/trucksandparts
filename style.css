@@ -16,7 +16,71 @@ body, html {
   padding: 0;
 }
 
+
+
+/* Header */
+
 header {
-  background-color: darkgrey;
-  margin-top: -5%;
+  background-color: #808080;
+}
+
+nav {
+  width: 100%;
+}
+
+.top-menu-class li {
+  display: inline;
+  float: left;
+  padding-left: 5%;
+  font-size: 1.2rem;
+}
+
+li a {
+  color: black;
+}
+
+.top-menu-class li a:hover {
+  color: #DC143C;
+}
+
+
+
+/* Widgets */
+
+div.textwidget.custom-html-widget h4 {
+  font-size: 1.2rem;
+  color: #DC143C;
+  width: 100%;
+  margin-top: 40%;
+  margin-left: 25%;
+  letter-spacing: 0.0009rem;
+  font-weight: bold;
+  border: 2px solid white;
+  background-color: white;
+  padding: 2%;
+  margin-bottom: 10%;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #808080;
+  margin-top: 10%;
+  padding: 5%;
+}
+
+h3.footer-h3 {
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+ul#menu-navigate.menu li {
+  list-style-type: none;
+  margin-left: -7%;
+}
+
+ul#menu-links.menu li {
+  list-style-type: none;
+  margin-left: -7%;
 }
