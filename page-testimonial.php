@@ -1,10 +1,20 @@
-<?php get_header(); ?>
+<?php
+
+/*
+
+Template Name: Testimonial
+Template Post Type: page, post
+
+*/
+
+
+get_header(); ?>
 
 <div class="container">
   <div class="row">
     <div class="row">
       <div class="col-md-12">
-        <?php dynamic_sidebar('hero-image'); ?>
+        <?php dynamic_sidebar('hero-image-testimonial'); ?>
       </div>
     </div>
 

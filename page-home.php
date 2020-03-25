@@ -1,12 +1,43 @@
-<?php get_header(); ?>
+<?php
 
-<div class="container">
-  <div class="row">
-    <main class="col-md-12">
-      
+/*
+
+Template Name: Home Page Layout
+Template Post Type: page, post
+
+*/
+
+
+get_header(); ?>
+
+  <div class="container">
+    <main>
+      <div class="row">
+        <div class="col-md-12">
+          <?php dynamic_sidebar('hero-image'); ?>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <?php dynamic_sidebar('about-us'); ?>
+        </div>
+      </div>
+
+      <div class="row home-page-bottom">
+        <div class="col-md-4">
+          <?php dynamic_sidebar('bottom-left-home-page'); ?>
+        </div>
+
+        <div class="col-md-4 middle-widget">
+          <?php dynamic_sidebar('bottom-middle-home-page'); ?>
+        </div>
+
+        <div class="col-md-4">
+          <?php dynamic_sidebar('bottom-right-home-page'); ?>
+        </div>
+      </div>
     </main>
   </div>
-</div>
-
 
 <?php get_footer(); ?>

@@ -1,12 +1,23 @@
-<?php get_header(); ?>
+<?php
+
+/*
+
+Template Name: Left Sidebar
+Template Post Type: page, post
+
+*/
+
+
+get_header(); ?>
 
 <div class="container">
   <div class="row">
-    <div class="row">
-      <div class="col-md-12">
-        <?php dynamic_sidebar('hero-image'); ?>
-      </div>
+    <div class="single-post-featured-image">
+      <?php the_post_thumbnail('large'); ?>
     </div>
+
+    <div class="internal-page">
+
 
       <main class="col-md-9 main-content">
         <?php if(have_posts()) {
@@ -18,6 +29,11 @@
         } //ends if statement
         ?>
       </main>
+
+      <div class="col-sm-3 sidebar">
+        <?php dynamic_sidebar('left-sidebar'); ?>
+      </div>
+    </div>
 
   </div>
 </div>
