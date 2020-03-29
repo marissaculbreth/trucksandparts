@@ -10,6 +10,14 @@ Template Post Type: page, post
 
 get_header(); ?>
 
+<div class="col-md-12">
+
+
+  <?php the_post_thumbnail('large'); ?>
+
+
+</div>
+
 
 
 
@@ -35,20 +43,6 @@ get_header(); ?>
 
 
          <h2><?php the_title(); ?></h2>
-
-
-       </div>
-
-
-
-
-
-
-
-       <div class="col-md-12">
-
-
-         <?php the_post_thumbnail('large'); ?>
 
 
        </div>

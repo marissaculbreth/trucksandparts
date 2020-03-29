@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<div class="single-post-featured-image">
+  <?php the_post_thumbnail('large'); ?>
+</div>
+
 <div class="container">
   <div class="row">
     <main class="col-md-12">
@@ -10,9 +14,7 @@
 
 
           <div class="post-section">
-            <div class="single-post-featured-image">
-              <?php the_post_thumbnail('medium'); ?>
-            </div>
+
 
             <?php the_content(); ?>
 

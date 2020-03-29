@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 
   <!-- Google Font link -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Oswald&display=swap" rel="stylesheet">
 
   <?php wp_head(); ?>
 </head>

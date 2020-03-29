@@ -10,11 +10,13 @@ Template Post Type: page, post
 
 get_header(); ?>
 
+<div class="single-post-featured-image">
+  <?php the_post_thumbnail('large'); ?>
+</div>
+
 <div class="container">
   <div class="row">
-    <div class="single-post-featured-image">
-      <?php the_post_thumbnail('large'); ?>
-    </div>
+
 
     <div class="internal-page">
 
@@ -30,7 +32,7 @@ get_header(); ?>
         ?>
       </main>
 
-      <div class="col-sm-3 sidebar">
+      <div class="col-sm-3 left-sidebar">
         <?php dynamic_sidebar('left-sidebar'); ?>
       </div>
     </div>

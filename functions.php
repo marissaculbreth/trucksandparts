@@ -183,25 +183,32 @@ function blank_widgets_init(){
     'after_title'   => '</h3>'
   ));
 
+  register_sidebar(array(
+    'name'          => ('Home Contact Form'),
+    'id'            => 'home-contact',
+    'description'   => 'Home contact form',
+    'before_widget' => '<div class="widget-home-contact">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="home-contact-widget-title">',
+    'after_title'   => '</h3>'
+  ));
+
+  register_sidebar(array(
+    'name'          => ('Home Image Gallery'),
+    'id'            => 'home-image-gallery',
+    'description'   => 'Home image gallery',
+    'before_widget' => '<div class="widget-home-gallery">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="home-gallery-widget-title">',
+    'after_title'   => '</h3>'
+  ));
+
 }
 
 add_action('widgets_init', 'blank_widgets_init');
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-// Outside Code
 
 
 /*===================================

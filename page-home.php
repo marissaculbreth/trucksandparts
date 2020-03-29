@@ -37,6 +37,15 @@ get_header(); ?>
           <?php dynamic_sidebar('bottom-right-home-page'); ?>
         </div>
       </div>
+
+
+      <div>
+        <?php dynamic_sidebar('home-contact'); ?>
+      </div>
+
+      <div>
+        <?php dynamic_sidebar('home-image-gallery'); ?>
+      </div>
     </main>
   </div>
 
