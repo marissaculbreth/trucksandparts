@@ -67,12 +67,24 @@ h3 {
   object-fit: cover;
 }
 
-.widget-bottom-middle, .widget-bottom-right, .widget-bottom-left {
+.home-red-section {
   background-color: #DC143C;
-  color: white;
   padding: 5%;
+  margin-top: 1%;
+}
+
+.widget-bottom-middle, .widget-bottom-right, .widget-bottom-left, .widget-about-us {
+  color: white;
   width: 100%;
-  margin-top: 2%;
+  text-align: center;
+}
+
+.widget-about-us {
+  padding-bottom: 5%;
+}
+
+.widget-bottom-middle, .widget-bottom-right, .widget-bottom-left {
+  margin-top: 8%;
 }
 
 .widget-bottom-middle a, .widget-bottom-right a, .widget-bottom-left a {
@@ -84,9 +96,6 @@ h3 {
   text-decoration: none;
 }
 
-.post-info {
-  margin-top: 10%;
-}
 
 div.widget-hero-image-testimonial {
   margin-top: 2%;
@@ -97,6 +106,7 @@ div.widget-hero-image-testimonial {
 
 header {
   background-color: #808080;
+  padding: 2%;
 }
 
 nav {
@@ -176,6 +186,21 @@ div.widget-home-contact {
   padding: 2%;
   margin-top: 1%;
   color: white;
+}
+
+
+
+/* Blog */
+.post-info {
+  margin-top: 5%;
+}
+
+.blog-main {
+  padding-right: 3%;
+}
+
+div.post-featured-image {
+  margin: 4% 0;
 }
 
 
