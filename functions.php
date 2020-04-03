@@ -1,5 +1,7 @@
 <?php
 
+@ini_set( 'upload_max_size' , '256M' );
+
 /*
 
 
