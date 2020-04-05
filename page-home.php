@@ -16,6 +16,9 @@ get_header(); ?>
         <div class="col-md-12">
           <?php dynamic_sidebar('hero-image'); ?>
         </div>
+        <div class="col-md-12">
+          <?php dynamic_sidebar('home-video'); ?>
+        </div>
       </div>
 
       <div class="home-red-section">

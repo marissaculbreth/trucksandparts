@@ -91,6 +91,16 @@ function blank_widgets_init(){
   ));
 
   register_sidebar(array(
+    'name'          => ('Home Video'),
+    'id'            => 'home-video',
+    'description'   => 'Home Video on the home page',
+    'before_widget' => '<div class="widget-home-video">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="home-video-widget-title">',
+    'after_title'   => '</h3>'
+  ));
+
+  register_sidebar(array(
     'name'          => ('Hero Image Testimonial'),
     'id'            => 'hero-image-testimonial',
     'description'   => 'Hero Image on the testimonial page',
