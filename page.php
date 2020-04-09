@@ -1,11 +1,13 @@
 <?php get_header(); ?>
 
+<div class="col-md-12">
+  <?php dynamic_sidebar('hero-image'); ?>
+</div>
+
 <div class="container">
   <div class="row">
     <div class="row">
-      <div class="col-md-12">
-        <?php dynamic_sidebar('hero-image'); ?>
-      </div>
+
     </div>
 
       <main class="col-md-9">

@@ -10,15 +10,9 @@ Template Post Type: page, post
 
 get_header(); ?>
 
-<div class="col-md-12">
-
-
+<div class="single-post-featured-image">
   <?php the_post_thumbnail('large'); ?>
-
-
 </div>
-
-
 
 
 <div class="container">

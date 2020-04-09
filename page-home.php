@@ -10,12 +10,14 @@ Template Post Type: page, post
 
 get_header(); ?>
 
+<div class="col-md-12">
+  <?php dynamic_sidebar('hero-image'); ?>
+</div>
+
   <div class="container">
     <main>
       <div class="row">
-        <div class="col-md-12">
-          <?php dynamic_sidebar('hero-image'); ?>
-        </div>
+
         <div class="col-md-12">
           <?php dynamic_sidebar('home-video'); ?>
         </div>
