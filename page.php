@@ -25,6 +25,7 @@
           <div class="col-lg-3 right-content">
             <?php dynamic_sidebar('right-sidebar'); ?>
           </div>
+        </div>
 
       </main>
 
