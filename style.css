@@ -97,11 +97,6 @@ h3 {
 }
 
 
-div.widget-hero-image-testimonial {
-  margin-top: 2%;
-}
-
-
 
 
 /* Header */
@@ -190,7 +185,7 @@ div.textwidget h3 {
   text-align: center;
 }
 
-div.widget-hero-image {
+div.widget-hero-image, div.widget-hero-image-testimonial {
   max-width: 100%;
   text-align: center;
 }

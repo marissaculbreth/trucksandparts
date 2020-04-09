@@ -10,13 +10,12 @@ Template Post Type: page, post
 
 get_header(); ?>
 
+<div class="container-fluid">
+  <?php dynamic_sidebar('hero-image-testimonial'); ?>
+</div>
+
 <div class="container">
   <div class="row">
-    <div class="row">
-      <div class="col-md-12">
-        <?php dynamic_sidebar('hero-image-testimonial'); ?>
-      </div>
-    </div>
 
       <main class="col-md-9 main-content">
         <?php if(have_posts()) {
