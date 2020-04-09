@@ -10,7 +10,7 @@ Template Post Type: page, post
 
 get_header(); ?>
 
-<div class="col-md-12">
+<div>
   <?php dynamic_sidebar('hero-image'); ?>
 </div>
 
