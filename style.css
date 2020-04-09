@@ -175,8 +175,9 @@ div.textwidget h3 {
   text-align: center;
 }
 
-.widget-hero-image {
-	text-align: center;
+div.widget-hero-image {
+  max-width: 1200px;
+  margin: auto;
 }
 
 div.widget-home-video {
