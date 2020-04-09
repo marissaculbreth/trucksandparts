@@ -111,6 +111,16 @@ function blank_widgets_init(){
   ));
 
   register_sidebar(array(
+    'name'          => ('Hero Image About Page'),
+    'id'            => 'hero-image-about-page',
+    'description'   => 'Hero Image on the about page',
+    'before_widget' => '<div class="widget-hero-image-about-page">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="hero-image-widget-about-page-title">',
+    'after_title'   => '</h3>'
+  ));
+
+  register_sidebar(array(
     'name'          => ('About Us'),
     'id'            => 'about-us',
     'description'   => 'Home page about us section',

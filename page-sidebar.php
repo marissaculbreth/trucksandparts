@@ -11,7 +11,7 @@ Template Post Type: page, post
 get_header(); ?>
 
 <div class="container-fluid">
-  <?php dynamic_sidebar('hero-image'); ?>
+  <?php dynamic_sidebar('hero-image-about-page'); ?>
 </div>
 
 <div class="single-post-featured-image">
