@@ -139,7 +139,7 @@ li a:hover {
   text-decoration: none;
 }
 
-li a {
+.top-menu-class li a {
   color: white;
 }
 
@@ -175,6 +175,10 @@ h3.left-sidebar-widget-title {
   width: 20%;
   padding: 3%;
   border: 4px solid #DC143C;
+}
+
+.left-sidebar li a {
+  color: black;
 }
 
 .sidebar li {
