@@ -10,6 +10,10 @@ Template Post Type: page, post
 
 get_header(); ?>
 
+<div>
+  <?php dynamic_sidebar('hero-image'); ?>
+</div>
+
 <div class="single-post-featured-image">
   <?php the_post_thumbnail('large'); ?>
 </div>
