@@ -8,18 +8,18 @@
       </div>
 
       <div class="col-sm-4 d-flex align-items-center">
-        <div class="col-lg-4">
+        <div class="col-sm-4">
             <?php dynamic_sidebar('bottom-middle-footer'); ?>
           </div>
       </div>
 
       <div class="col-sm-3 d-flex align-items-center">
-        <div class="col-lg-4">
+        <div class="col-sm-4">
           <?php dynamic_sidebar('bottom-right-footer'); ?>
         </div>
       </div>
 
-      <div class="col-sm-3 d-flex align-items-center">
+      <div class="col-lg-3 d-flex align-items-center">
         <div class="col-lg-4">
           <?php dynamic_sidebar('footer-image'); ?>
         </div>

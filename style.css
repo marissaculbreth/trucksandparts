@@ -284,6 +284,11 @@ div.footer-row {
   margin-top: 2%;
 }
 
+div.widget-footer-image img {
+  width: 600px;
+  height: 350px;
+}
+
 
 
 
