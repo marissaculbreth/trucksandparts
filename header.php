@@ -20,7 +20,7 @@
   <header>
     <div class="container">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-3 logo">
           <?php if(get_header_image() == ''){?>
             <h1><a href="<?php echo get_home_url();?>"><?php bloginfo('name'); ?></a></h1><?php
           } else{?>
@@ -28,21 +28,24 @@
           <?php } ?>
         </div>
 
-        <div class="col-lg d-flex align-items-center">
-          <nav>
-            <?php
-              if(has_nav_menu('top-menu')){
-                wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'top-menu-class'));
-              }else{
-                echo "Please select a top menu through the dashboard";
-              }
-            ?>
-          </nav>
-        </div>
 
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <?php dynamic_sidebar('right-header'); ?>
         </div>
+
+
       </div>
+    </div>
+
+    <div class="nav-menu col-lg d-flex align-items-center">
+      <nav>
+        <?php
+          if(has_nav_menu('top-menu')){
+            wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'top-menu-class'));
+          }else{
+            echo "Please select a top menu through the dashboard";
+          }
+        ?>
+      </nav>
     </div>
   </header>
