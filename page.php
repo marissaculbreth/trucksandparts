@@ -6,9 +6,6 @@
 
 <div class="container">
   <div class="row">
-    <div class="row">
-
-    </div>
 
       <main class="col-md-9">
 
@@ -28,8 +25,6 @@
           <div class="col-lg-3 right-content">
             <?php dynamic_sidebar('right-sidebar'); ?>
           </div>
-
-        </div>
 
       </main>
 
