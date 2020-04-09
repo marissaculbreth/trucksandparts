@@ -268,11 +268,11 @@ footer {
 }
 
 div.widget-bottom-left-footer img {
-  width: 15%;
+  width: 10%;
   display: flex;
 }
 
-div.widget-bottom-middle-footer li {
+div.widget-bottom-middle-footer li, div.widget-bottom-right-footer li {
   list-style-type: none;
 }
 
@@ -280,8 +280,8 @@ div.widget-bottom-right-footer, div.widget-bottom-middle-footer {
   margin-left: -25%;
 }
 
-div.widget-bottom-right-footer li {
-  list-style-type: none;
+div.widget-bottom-right-footer li a, div.widget-bottom-middle-footer li a{
+  color: black;
 }
 
 div.widget-far-right-footer {
