@@ -10,7 +10,7 @@ Template Post Type: page, post
 
 get_header(); ?>
 
-<div>
+<div class="container-fluid">
   <?php dynamic_sidebar('hero-image'); ?>
 </div>
 
