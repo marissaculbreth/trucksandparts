@@ -191,8 +191,8 @@ div.textwidget h3 {
 }
 
 div.widget-hero-image {
-  max-width: 1200px;
-  margin: auto;
+  max-width: 100%;
+  text-align: center;
 }
 
 div.widget-home-video {
