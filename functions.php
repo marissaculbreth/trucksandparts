@@ -222,6 +222,16 @@ function blank_widgets_init(){
     'after_title'   => '</h3>'
   ));
 
+  register_sidebar(array(
+    'name'          => ('Footer Image'),
+    'id'            => 'footer-image',
+    'description'   => 'Image in footer',
+    'before_widget' => '<div class="widget-footer-image">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="footer-image-widget-title">',
+    'after_title'   => '</h3>'
+  ));
+
 }
 
 add_action('widgets_init', 'blank_widgets_init');
