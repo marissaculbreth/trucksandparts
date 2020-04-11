@@ -275,8 +275,12 @@ div.widget-bottom-right-footer, div.widget-bottom-middle-footer {
   margin-left: -25%;
 }
 
-div.widget-bottom-right-footer li a, div.widget-bottom-middle-footer li a{
-  color: black;
+div.widget-bottom-right-footer li a, div.widget-bottom-middle-footer li a {
+  color: white;
+}
+
+div.widget-bottom-right-footer ul li a:hover, div.widget-bottom-middle-footer ul li a:hover {
+  color: #DC143C;
 }
 
 div.widget-far-right-footer {
