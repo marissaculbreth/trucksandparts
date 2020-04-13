@@ -111,11 +111,13 @@ header {
 
 nav {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 div.nav-menu {
   background-color: #DC143C;
-  padding-top: 0.5%;
+  border: 6px solid #00579c;
 }
 
 .top-menu-class {
@@ -233,8 +235,10 @@ div.twelve.columns.individual-post {
   margin-top: 5%;
 }
 
+
 .post-h3 a {
   color: #00579c;
+  font-family: 'Oswald', sans-serif;
 }
 
 .post-h3 a:hover {
@@ -402,7 +406,6 @@ div.widget-footer-image img {
 @media (min-width: 960px) {
   .top-menu-class li {
     font-size: 1.2rem;
-    padding-left: 3%;
   }
 
   li#menu-item-17 {
