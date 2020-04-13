@@ -11,12 +11,12 @@ get_header(); ?>
 
 <div class="container">
   <div class="row">
-    <div class="twelve columns">
+    <div class="twelve columns individual-post">
       <?php if(have_posts()){ ?>
           <h1><?php printf(__('Search Results for: %s'), '<span>' . get_search_query() . '</span>'); ?></h1>
             <?php while(have_posts()){
               the_post(); ?>
-              <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+              <h2 class="search-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
               <?php the_excerpt(); ?>
               <a class="btn btn-primary" href="<?php the_permalink(); ?>">Read More</a><?php
             } //end while loop

@@ -255,6 +255,19 @@ div.archive-page .post-featured-image {
 }
 
 
+/* Search Page */
+
+h2.search-title a {
+  color: #00579c;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2.search-title a:hover {
+  color: #DC143C;
+  text-decoration: none;
+}
+
+
 
 
 /* 404 Page */
