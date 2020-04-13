@@ -222,10 +222,32 @@ div.widget-home-contact {
 
 .blog-main {
   padding-right: 3%;
+  margin-top: 3%;
 }
 
 div.post-featured-image {
   margin: 4% 0;
+}
+
+div.twelve.columns.individual-post {
+  margin-top: 5%;
+}
+
+.post-h3 a {
+  color: #00579c;
+}
+
+.post-h3 a:hover {
+  color: #DC143C;
+  text-decoration: none;
+}
+
+.archive-page {
+  display: flex;
+}
+
+div.archive-page .post-featured-image {
+  margin-right: 3%;
 }
 
 
