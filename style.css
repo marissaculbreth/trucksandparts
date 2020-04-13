@@ -293,24 +293,16 @@ div.widget-bottom-left-footer img {
   display: flex;
 }
 
-div.widget-bottom-middle-footer li, div.widget-bottom-right-footer li {
+div.widget-bottom-middle-footer li {
   list-style-type: none;
 }
 
-div.widget-bottom-right-footer, div.widget-bottom-middle-footer {
-  margin-left: -25%;
-}
-
-div.widget-bottom-right-footer li a, div.widget-bottom-middle-footer li a {
+div.widget-bottom-middle-footer li a {
   color: white;
 }
 
-div.widget-bottom-right-footer ul li a:hover, div.widget-bottom-middle-footer ul li a:hover {
+div.widget-bottom-middle-footer ul li a:hover {
   color: #DC143C;
-}
-
-div.widget-far-right-footer {
-  margin-left: -30%;
 }
 
 div.footer-row {
