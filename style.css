@@ -135,6 +135,7 @@ li a:hover {
 
 .widget-about-us {
   padding-bottom: 5%;
+  font-family: 'Oswald', sans-serif;
 }
 
 .widget-bottom-middle, .widget-bottom-right, .widget-bottom-left {
@@ -195,6 +196,14 @@ div.widget-hero-image, div.widget-hero-image-testimonial {
 
 div.widget-home-video {
   margin-top: 1%;
+}
+
+h3.home-contact-widget-title {
+  font-family: 'Oswald', sans-serif;
+}
+
+form.wpcf7-form p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 
