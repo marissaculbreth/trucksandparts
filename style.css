@@ -389,7 +389,8 @@ div.footer-row {
 
   div.left-content {
     float: left;
-    width: 70%;
+    width: 60%;
+    margin-right: 3%;
   }
 
   div.right-content {
