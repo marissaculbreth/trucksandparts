@@ -311,11 +311,6 @@ footer {
   width: 100%;
 }
 
-div.widget-bottom-left-footer img {
-  width: 10%;
-  display: flex;
-}
-
 div.widget-bottom-middle-footer li {
   list-style-type: none;
   font-family: 'Oswald', sans-serif;
@@ -329,21 +324,21 @@ div.widget-bottom-middle-footer ul li a:hover {
   color: #DC143C;
 }
 
-div.footer-row {
+/* div.footer-row {
   display:flex;
   margin: auto;
-}
+} */
 
 .footer-p {
   text-align: center;
   color: white;
   margin-top: 2%;
 }
-
+/* 
 div.widget-footer-image img {
   width: 600px;
   height: 350px;
-}
+} */
 
 
 
