@@ -60,6 +60,60 @@ h3 {
   margin: 3% 0 2% 0;
 }
 
+
+
+
+
+/* Header */
+
+header {
+  background-color: #808080;
+}
+
+.logo {
+  padding: 2%;
+}
+
+nav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div.nav-menu {
+  background-color: #DC143C;
+  border: 6px solid #00579c;
+}
+
+.top-menu-class {
+  text-align: center;
+}
+
+.top-menu-class ul li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+}
+
+.top-menu-class li {
+  display: inline;
+}
+
+li a:hover {
+  text-decoration: none;
+}
+
+.top-menu-class li a {
+  color: white;
+}
+
+.top-menu-class li a:hover {
+  color: #00579c;
+}
+
+
+
+
+/* Widgets */
 .single-post-featured-image {
   text-align: center;
   margin-bottom: 2%;
@@ -95,59 +149,6 @@ h3 {
   color: #00579c;
   text-decoration: none;
 }
-
-
-
-
-/* Header */
-
-header {
-  background-color: #808080;
-}
-
-.logo {
-  padding: 2%;
-}
-
-nav {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-div.nav-menu {
-  background-color: #DC143C;
-  border: 6px solid #00579c;
-}
-
-.top-menu-class {
-  text-align: center;
-}
-
-.top-menu-class ul li {
-  font-size: 1.3rem;
-}
-
-.top-menu-class li {
-  display: inline;
-}
-
-li a:hover {
-  text-decoration: none;
-}
-
-.top-menu-class li a {
-  color: white;
-}
-
-.top-menu-class li a:hover {
-  color: #00579c;
-}
-
-
-
-
-/* Widgets */
 
 div.textwidget.custom-html-widget h4 {
   font-size: 1.2rem;
