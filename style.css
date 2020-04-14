@@ -324,17 +324,17 @@ div.widget-bottom-middle-footer ul li a:hover {
   color: #DC143C;
 }
 
-/* div.footer-row {
+div.footer-row {
   display:flex;
   margin: auto;
-} */
+}
 
 .footer-p {
   text-align: center;
   color: white;
   margin-top: 2%;
 }
-/* 
+/*
 div.widget-footer-image img {
   width: 600px;
   height: 350px;
