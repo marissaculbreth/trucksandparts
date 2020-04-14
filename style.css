@@ -60,7 +60,13 @@ h3 {
   margin: 3% 0 2% 0;
 }
 
-
+.container-fluid {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 
 
@@ -334,11 +340,6 @@ div.footer-row {
   color: white;
   margin-top: 2%;
 }
-/*
-div.widget-footer-image img {
-  width: 600px;
-  height: 350px;
-} */
 
 
 
