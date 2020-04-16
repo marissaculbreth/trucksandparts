@@ -98,6 +98,8 @@ div.nav-menu {
 .top-menu-class ul li {
   font-family: 'Oswald', sans-serif;
   font-size: 1.3rem;
+  border-right: 2px solid #00579c;
+	padding: 0 2%;
 }
 
 .top-menu-class li {
