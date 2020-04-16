@@ -28,8 +28,10 @@
           <?php } ?>
         </div>
 
+        <div class="col-lg-3">
+        </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <?php dynamic_sidebar('right-header'); ?>
         </div>
 
