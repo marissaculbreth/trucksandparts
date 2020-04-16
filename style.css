@@ -170,6 +170,7 @@ div.textwidget.custom-html-widget h4 {
   margin-top: 3%;
   margin-bottom: 3%;
   margin-left: 40%;
+  border-radius: 15px;
 }
 
 h3.left-sidebar-widget-title {
