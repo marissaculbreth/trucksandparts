@@ -392,6 +392,7 @@ div.footer-row {
     float: left;
     width: 60%;
     margin-left: 6%;
+    clear: both;
   }
 
   div.right-content {
