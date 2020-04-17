@@ -314,16 +314,16 @@ footer {
   width: 100%;
 }
 
-div.widget-bottom-middle-footer li {
+div.widget-bottom-right-footer li {
   list-style-type: none;
   font-family: 'Oswald', sans-serif;
 }
 
-div.widget-bottom-middle-footer li a {
+div.widget-bottom-right-footer li a {
   color: white;
 }
 
-div.widget-bottom-middle-footer ul li a:hover {
+div.widget-bottom-right-footer ul li a:hover {
   color: #DC143C;
 }
 
