@@ -216,7 +216,6 @@ form.wpcf7-form p {
 div.widget-right-sidebar {
   margin-top: 15%;
   border-left: 5px solid #0060aa;
-  padding-left: 10%;
 }
 
 div.widget-home-contact {
@@ -226,6 +225,12 @@ div.widget-home-contact {
   margin-top: 1%;
   color: white;
 }
+
+div.widget-right-sidebar {
+  padding-left: 4%;
+}
+
+
 
 
 
@@ -384,16 +389,15 @@ div.footer-row {
     display: flex;
   }
 
-  div.left-content {
+  .left-content {
     float: left;
-    width: 60%;
-    margin-left: 6%;
+    width: 65%;
     clear: both;
   }
 
   div.right-content {
     float: right;
-    width: 20%;
+    width: 30%;
   }
 
   div.textwidget.custom-html-widget h4 {
